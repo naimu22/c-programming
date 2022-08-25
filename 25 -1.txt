@@ -1,0 +1,16 @@
+#include<stdio.h>
+void main()
+{
+int i;
+char x[50],cnt=1;
+printf("enter string \n");
+gets(x);
+for(i=0;x[i]!='\0';i++)
+{
+if(x[i]=='')
+cnt+=1;
+}
+printf("number of words:%d",cnt);
+}
+input:I Love India
+output:no of words:3 
